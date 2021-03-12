@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val costOfService = stringInTextField.toDoubleOrNull()
 
         if (costOfService == null) {
-            binding.tipResult.text = NumberFormat.getCurrencyInstance(Locale.getDefault()).format(0.0)
+            displayTip(0.0)
             return
         }
 
@@ -35,14 +35,19 @@ class MainActivity : AppCompatActivity() {
             else -> 0.0
         }
 
-        var tip = tipPercentage * costOfService
+        var calculatedTip = tipPercentage * costOfService
 
         if (binding.roundUpSwitch.isChecked) {
-            tip = kotlin.math.ceil(tip)
+            calculatedTip = kotlin.math.ceil(calculatedTip)
         }
 
-        val formattedTip = NumberFormat.getCurrencyInstance(Locale.getDefault()).format(tip)
+        displayTip(calculatedTip)
 
+
+    }
+
+    private fun displayTip(tip: Double) {
+        val formattedTip = NumberFormat.getCurrencyInstance(Locale.getDefault()).format(tip)
         binding.tipResult.text = getString(R.string.tip_amount,  formattedTip)
 
     }
