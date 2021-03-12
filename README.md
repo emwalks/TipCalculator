@@ -24,6 +24,7 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - Using Locale.getDefault() to format currency
 - Updating app icon using background and foreground xml
 - Using Material Design components [Text Fields](https://material.io/components/text-fields/android)
+- Backwards compatibility of [Vector Drawables](https://developer.android.com/guide/topics/graphics/vector-drawable-resources?authuser=1#vector-drawables-backward-solution)
 
 <!--
 <img align="right" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
