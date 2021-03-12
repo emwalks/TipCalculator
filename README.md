@@ -15,6 +15,9 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - [RadioGroup](https://developer.android.com/reference/android/widget/RadioGroup) - to group the radio button options
 - CheckedButton on a RadioGroup to add a default option
 - [Switch](https://developer.android.com/reference/kotlin/android/widget/Switch) - an on/off toggle for choosing whether to round up the tip or not
+- Using android:checked to set switches on or off by default
+- [Constraint Layout](https://developer.android.com/training/constraint-layout)
+- Using match constraint (0dp) instead of match parent for UI elements in a ConstraintLAyout
 
 
 
