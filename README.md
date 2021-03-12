@@ -1,9 +1,5 @@
 # TipCalculator
 
-<img align="right" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
-<img align="left" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_dark.png" alt="appPreviewDark" width="300"/>
-
-
 App Project 3: Android Basics in Kotlin Course
 
 This repo keeps track of my progress following the [Android Basics in Kotlin Course](https://developer.android.com/courses/android-basics-kotlin/course)
@@ -23,6 +19,8 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - Supporting [Dark Theme](https://developer.android.com/guide/topics/ui/look-and-feel/darktheme) - now appears to be included in res/values/themes.xml by default
 - Extracting UI text to string resources for easier translation
 
+<img align="right" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
+<img align="left" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_dark.png" alt="appPreviewDark" width="300"/>
 
 
 
