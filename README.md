@@ -23,6 +23,6 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - Appending %s to strings in strings.xml to allow concatenation
 - Using Locale.getDefault() to format currency
 
-<img align="center" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
+//<img align="center" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
 
 
