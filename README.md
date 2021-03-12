@@ -19,6 +19,7 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - [Constraint Layout](https://developer.android.com/training/constraint-layout)
 - Using match constraint (0dp) instead of match parent for UI elements in a ConstraintLAyout
 - Supporting [Dark Theme](https://developer.android.com/guide/topics/ui/look-and-feel/darktheme) - now appears to be included in res/values/themes.xml by default
+- Extracting UI text to string resources for easier translation
 
 
 
