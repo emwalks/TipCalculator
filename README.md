@@ -22,6 +22,7 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - Using checkedRadioButtonId to identify user selection
 - Appending %s to strings in strings.xml to allow concatenation
 - Using Locale.getDefault() to format currency
+- Updating app icon using background and foreground xml
 
 <!--
 <img align="right" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
