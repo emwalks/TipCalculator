@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tipcalculator.databinding.ActivityMainBinding
 import java.text.NumberFormat
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -23,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         val costOfService = stringInTextField.toDoubleOrNull()
 
         if (costOfService == null) {
-            binding.tipResult.text = NumberFormat.getCurrencyInstance().format(0.0)
+            binding.tipResult.text = NumberFormat.getCurrencyInstance(Locale.getDefault()).format(0.0)
             return
         }
 
@@ -40,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             tip = kotlin.math.ceil(tip)
         }
 
-        val formattedTip = NumberFormat.getCurrencyInstance().format(tip)
+        val formattedTip = NumberFormat.getCurrencyInstance(Locale.getDefault()).format(tip)
 
         binding.tipResult.text = getString(R.string.tip_amount,  formattedTip)
 

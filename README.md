@@ -23,5 +23,6 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - [View Binding](https://developer.android.com/topic/libraries/view-binding) instead of using findViewById()
 - Using checkedRadioButtonId to identify user selection
 - Appending %s to strings in strings.xml to allow concatenation
+- Using Locale.getDefault() to format currency
 
 
