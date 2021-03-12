@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         val costOfService = stringInTextField.toDoubleOrNull()
 
         if (costOfService == null) {
+            binding.tipResult.text = ""
             return
         }
 
