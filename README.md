@@ -1,6 +1,8 @@
 # TipCalculator
 
-<img align="right" src="" alt="appPreview" width="300"/>
+<img align="right" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
+<img align="left" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_dark.png" alt="appPreviewDark" width="300"/>
+
 
 App Project 3: Android Basics in Kotlin Course
 
