@@ -34,6 +34,9 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 <img align="right" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
 -->
 
-<img src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300" class="center"/> <img src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_dark.png" alt="appPreviewLight" width="300" class="center"/>
+<p align="center">
+  <img src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/> <img src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_dark.png" alt="appPreviewLight" width="300"/>
+</p>
+
 
 
