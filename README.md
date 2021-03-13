@@ -28,7 +28,7 @@ This repo keeps track of my progress following the [Android Basics in Kotlin Cou
 - Using styles.xml to style multiple elements
 - Scroll View for improved landscape experience
 - Using [onKeyListeners](https://developer.android.com/reference/kotlin/android/view/View?authuser=1#setOnKeyListener(android.view.View.OnKeyListener)) and the [Input Method Manager](https://developer.android.com/reference/android/view/inputmethod/InputMethodManager) to dismiss the on screen keyboard after clicking enter
--
+- Applying app theme colours as tints to vector drawable objects for improved dark mode experience
 
 <!--
 <img align="right" src="https://github.com/emwalks/TipCalculator/blob/main/app/src/main/res/drawable/app_preview_light.png" alt="appPreviewLight" width="300"/>
